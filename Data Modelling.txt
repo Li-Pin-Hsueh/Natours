@@ -1,0 +1,16 @@
+
+1. Relationship
+    - 1:1
+    - 1:MANY
+        MongoDB -> (1:FEW) (1:MANY) (1:TON)
+    - MANY:MANY
+
+2. REFERENCING VS. EMBEDDING
+    Reference(Normalized) from : Keep two related datasets and all the documents seperated.
+    (Example: Child REFERENCING)
+    Embedding(Denormalized) 
+
+TYPES OF REFERENCING
+    - CHILD REFERENCING (1:FEW)
+    - PARENT REFERENCING (1:MANY) (1:TON)
+    - TWO-WAY REFERENCING (MANY:MANY)
